@@ -1,0 +1,4 @@
+#!/bin/bash
+# Compile the C file without linking, and output an object file with .o extension
+
+gcc -c "$CFILE" -o "${CFILE%.c}.o"
