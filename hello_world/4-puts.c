@@ -1,8 +1,13 @@
 #include <stdio.h>
 
-/* c puts fonctions */
 
-int main () {
+/**
+ * main - Entry point
+ *
+ * C puts fonctions
+ */
+
+int main (void) {
 
 
 puts("\"Programming is like building a multilingual puzzle");
