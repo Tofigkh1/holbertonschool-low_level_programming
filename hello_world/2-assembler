@@ -1,13 +1,2 @@
 #!/bin/bash
-# C name
-# error handling
-if [ -z "$CFILE" ]; then
-    echo "Error: CFILE is not set"
-    exit 1
-fi
-
-# .c reverse .s
-output_file="${CFILE%.c}.s"
-
-# gcc ile assembly ceated
-gcc -S "$CFILE" -o "$output_file"
+gcc -S $CFILE -o ${CFILE%.c}.s
