@@ -12,10 +12,14 @@
 
 int main(void)
 {
-char c;
-for (c = 'z'; c >= 'a'; c--)
+int a;
+for (a = 0; a < 10; a++)
 {
-putchar(c);
+putchar(a + '0');
+if (a < 9)
+{
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return (0);
