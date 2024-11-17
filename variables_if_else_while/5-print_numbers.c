@@ -1,19 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints the last of a randomly generated number
- *        and evaluates its properties.
+ * main - Prints all single-digit numbers of base 10 starting from 0.
  *
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
-int a = 0;
-for (int a = 0; a < 10; a++)
+int a;
+for (a = 0; a < 10; a++)
 {
 printf("%d", a);
 }
