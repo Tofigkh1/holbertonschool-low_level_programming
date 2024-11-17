@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of a randomly generated number
+ * main - Prints the last of a randomly generated number
  *        and evaluates its properties.
  *
  * Return: Always (Success)
@@ -12,12 +12,11 @@
 
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
+int a = 0;
+for (int a = 0; a < 10; a++)
 {
-if (c != 'q' && c != 'e')
-putchar(c);
+printf("%d", a);
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
