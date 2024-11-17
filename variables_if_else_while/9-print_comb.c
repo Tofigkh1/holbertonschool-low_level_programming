@@ -1,14 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of a randomly generated number
- *        and evaluates its properties.
+ * main - Prints all combinations of single-digit numbers
  *
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
@@ -20,6 +16,7 @@ if (a < 9)
 {
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
