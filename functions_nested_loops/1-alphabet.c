@@ -5,11 +5,9 @@
  */
 
 
- void print_alphabet (void) {
- char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
-
- _putchar(alphabet[0]);
-
- _putchar(alphabet[1]);
-
- }
+void print_alphabet(void)
+{
+char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
+_putchar(alphabet[0]);
+_putchar(alphabet[1]);
+}

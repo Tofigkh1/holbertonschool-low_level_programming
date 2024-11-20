@@ -7,7 +7,8 @@
  */
 
 
-main(void){
+main(void)
+{
 print_alphabet();
 return (0);
 }
