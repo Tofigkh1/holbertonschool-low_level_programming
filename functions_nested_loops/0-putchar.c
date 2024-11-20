@@ -1,14 +1,21 @@
-#include <stdio.h>
-
+#include "main.h"
 
 /**
- * main - Prints all combinations of single-digit numbers
+ * main - Entry point
  *
+ * Description: Prints "_putchar" followed by a new line
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-printf("_putchar\n");
-return (0);
+    char *str = "_putchar";
+    int i;
+
+    for (i = 0; str[i] != '\0'; i++)
+    {
+        _putchar(str[i]);
+    }
+    _putchar('\n');
+
+    return (0);
 }
