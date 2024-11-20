@@ -8,6 +8,9 @@
 void print_alphabet(void)
 {
 char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
-_putchar(alphabet[0]);
-_putchar(alphabet[1]);
+int i;
+for (i = 0; alphabet[i] != '\0'; i++)
+{
+_putchar(alphabet[i]);
+}
 }
